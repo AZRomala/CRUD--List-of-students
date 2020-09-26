@@ -102,6 +102,7 @@ table tbody > tr:nth-child(odd) {
   }
 }
 footer{
+  padding: 12px;
 bottom: 0;
   flex-shrink: 1;
   height: 30px ;
