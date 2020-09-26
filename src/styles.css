@@ -26,6 +26,12 @@ main{
   margin: 20px auto ;
   width: 100%;
 }
+a {
+  font-family: 'Courier New', Courier, monospace;
+  color: #3a3a3a;
+  text-decoration: none;
+  transition: all 0.3s;
+}
 input{
   height: 40px ;
   width: 100%;
@@ -49,7 +55,7 @@ table tbody > tr:nth-child(odd) {
 /* Przyciski */
 .button {
   display: inline-block;
-  margin: 2px 0;
+  margin: 2px;
   padding: 12px 30px 14px;
   border: 0;
   background: #999999;
@@ -102,11 +108,14 @@ table tbody > tr:nth-child(odd) {
   }
 }
 footer{
-  padding: 12px;
 bottom: 0;
   flex-shrink: 1;
   height: 30px ;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: grey;}
+  background: #262930;
+  color: #bab9b9;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;}
