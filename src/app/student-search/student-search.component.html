@@ -1,0 +1,12 @@
+<div class="search-component">
+    <h3><label for="search-box">Wyszukaj studenta</label></h3>
+    <input #searchBox id="search-box" placeholder="Wprowadź imię lub nazwisko..." (input)="search(searchBox.value)" />
+  
+    <ul class="search-result">
+      <li *ngFor="let student of students$ | async" >
+        <a routerLink="/edit/{{student.id}}">
+          {{student.name}}
+        </a>
+      </li>
+    </ul>
+  </div>

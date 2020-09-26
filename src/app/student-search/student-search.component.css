@@ -1,0 +1,42 @@
+/*pole search component*/
+.search-component {
+  position: relative;
+}
+
+/* Pole wyszukiwania (<input>) */
+#search-box {
+    width: 100%;
+  }
+  
+  /* Lista wyszukiwania (<ul>) */
+  .search-result {
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 0;
+    padding-left: 0;
+  }
+  
+  .search-result li {
+    height: 25px;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    border-top: 0;
+    background-color: #ffffff;
+    cursor: pointer;
+    list-style-type: none;
+  }
+  
+  .search-result li:hover {
+    background-color: #999999;
+  }
+  
+  .search-result li:hover a {
+    color: #ffffff;
+  }
+  
+  .search-result li a {
+    display: block;
+    color: #999999;
+    text-decoration: none;
+  }
